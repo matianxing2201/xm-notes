@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo/vue-ui": "workspace:^"
+  }
+}

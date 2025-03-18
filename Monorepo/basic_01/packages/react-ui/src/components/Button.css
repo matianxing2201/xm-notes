@@ -1,0 +1,16 @@
+.primary {
+    background: blue;
+    color: #fff;
+}
+.success {
+    background: green;
+    color: #fff;
+}
+.wran {
+    background: orange;
+    color: #000;
+}
+.danger {
+    background: red;
+    color: #fff;
+}
