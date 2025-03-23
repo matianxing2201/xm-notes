@@ -1,0 +1,20 @@
+{
+  "name": "basic_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:base": "pnpm run -F base dev",
+    "dev:vue-project": "pnpm run -F vue-project  dev",
+    "dev:react-project": "pnpm run -F react-project  dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-qiankun": "^1.0.15"
+  },
+  "dependencies": {
+    "qiankun": "^2.10.16"
+  }
+}
