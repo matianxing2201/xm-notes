@@ -2,9 +2,12 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import microAppsConfig from './micro-apps.js'
 import { registerMicroApps, start } from 'qiankun'
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-    <App />
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
 )
 
 

@@ -15,6 +15,9 @@
     "vite-plugin-qiankun": "^1.0.15"
   },
   "dependencies": {
-    "qiankun": "^2.10.16"
+    "qiankun": "^2.10.16",
+    "react-router": "^7.4.0",
+    "react-router-dom": "^7.4.0",
+    "vue-router": "^4.5.0"
   }
 }
